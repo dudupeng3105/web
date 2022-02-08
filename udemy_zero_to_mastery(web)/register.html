@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>    
+    <title>Register</title>
+</head>
+<body>    
+    <!-- form -->
+    <!-- Use GET, not Post -->
+    <!-- div for division, to divide content-->
+    <!-- span은 인라인 요소, div는 block 요소 -->
+    <!-- 일부분에 스타일을 적용하기 위해 -->
+    <div>
+        <form method="GET" action="action.php">
+            <!-- backend에 보낼때 php 형식으로 보낸다는 뜻 -->
+            <!--GET, POST 등-->
+            First name: <input type="text" name="firstname"><br>
+            Last name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" name="password"minlength=" 5"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+            Pets: <br>
+            <input type="checkbox" name="cat"> Cat<br>
+            <input type="checkbox" name="dog"> Dogs<br>
+            <!-- 체크박스는 두개 다 체크가능 -->
+            Cars: <br>
+            <select>
+                <option value="volvo" name="volvo">Volvo</option>
+                <option value="Audi" name="audi">Audi</option>
+            </select><br>
+            <input type="submit" value="Register!">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
+?firstname=fake&lastname=new&email=newfake%40naver.com&password=123422&birthday=2022-02-04&gender=on&dog=on
