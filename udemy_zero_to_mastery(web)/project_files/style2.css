@@ -1,0 +1,21 @@
+h2 {
+    color: blue;
+}
+
+/* .boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px;
+    width: 33px;
+    height: 55px;
+} */
+
+p {
+    font-size: 10px;
+}
+
+/* p tag 내의 span요소의 p태그 대비 크기 5em => 100px 됨  */
+span {
+    font-size: 5em;
+}

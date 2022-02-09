@@ -1,0 +1,101 @@
+/* *:all element */
+
+* {
+    text-align: right;
+}
+
+/* Selector {
+    Property: value;
+} */
+
+body {
+    background-image: url(background_img.jpg);
+    background-size: cover;
+}
+/* element, element */
+p {
+    color: #EBEBB4;
+    text-align: center;
+    border: 5px solid rgba(10, 7, 73, 0.7);
+    cursor: pointer;  
+}
+/* element element */
+/* 의미 h2안에 p에 대해서 적용 */
+/* h2 p {
+    color: #EBEBB4;
+    text-align: center;
+    border: 5px solid rgba(10, 7, 73, 0.7);
+    cursor: pointer;  
+} */
+/* element > element */
+/* 부모가 h2인 모든요소의 p에 대해서 적용 */
+/* h2 p {
+    color: #EBEBB4;
+    text-align: center;
+    border: 5px solid rgba(10, 7, 73, 0.7);
+    cursor: pointer;  
+} */
+/*element+element  */
+/* 정확히 h2뒤(혹은 바로 아래)에 p가 있을때 */
+/* h2 + p
+{
+    color: #EBEBB4;
+    text-align: center;
+    border: 5px solid rgba(10, 7, 73, 0.7);
+    cursor: pointer;  
+} */
+/* element+element:hover */
+/* 마우스를 대면 적용됨 */
+/* h2 + p:hover {
+    color: #EBEBB4;
+    text-align: center;
+    border: 5px solid rgba(10, 7, 73, 0.7);
+    cursor: pointer;  
+} */
+/* important: casecade 무시하고 최우선 추천  X */
+/* ex> color: pink !important */
+p {
+    line-height: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Poiret One', cursive;
+    /* roman 없으면 조지아 채택함 */
+
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+/* casecading: 마지막 input을 취함
+여기서 pink하고 green 했으니
+결국 green */
+li {
+    color: white;
+    list-style:none;
+    display: inline-block;
+}
+/* class */
+/* last-child:마지막 child만 적용 */
+/* first-child:처음 child만 적용 */
+/* ex> .webtext:first-child */
+.webtext{
+    border: 5px dashed darkblue;
+}
+
+.active {
+    color: red;
+}
+/* id */
+#div1 {
+    background: rgba(255,255,255,0.5);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.5);
+}

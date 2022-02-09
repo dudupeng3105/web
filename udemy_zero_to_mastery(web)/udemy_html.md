@@ -30,4 +30,6 @@ https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
 
 https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes3
 
+- html Exercise 88개
+
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/
