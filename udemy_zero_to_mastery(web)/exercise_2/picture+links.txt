@@ -1,0 +1,28 @@
+https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg
+
+https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg
+
+https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg
+
+https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg
+
+https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg
+
+https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
+
+-moz-     /* Firefox and other browsers using Mozilla's browser engine */
+-webkit-  /* Safari, Chrome and browsers using the Webkit engine */
+-o-       /* Opera */
+-ms-      /* Internet Explorer (but not always) */ 
+
+https://s2.gifyu.com/images/71ee22162bfd17e835cd95a5a7ce39b8.jpg
+
+https://s2.gifyu.com/images/4a35bb6feaac25ed10ad3b4a0f8ef5ee.jpg
+
+https://s2.gifyu.com/images/d2c7a9688f33a831e956812d9df1a957.jpg
+
+https://s2.gifyu.com/images/1613377377.jpg
+
+https://www.city.kr/files/attach/images/164/394/275/024/45cc0f838e7f0c6f9bf24645860a8ed8.jpg
+
+https://bbs.bepick.in/bbs/2020/04/d4b6f522bd0e12e6e9af23a1491bae93_20200408232408.jpg
