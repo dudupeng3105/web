@@ -79,3 +79,7 @@ https://thoughtbot.com/blog/transitions-and-transforms
 https://www.freecodecamp.org/learn/responsive-web-design/basic-css/
 
 https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
+
+프리리소스
+
+https://zerotomastery.io/resources/
