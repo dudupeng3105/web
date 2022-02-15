@@ -41,13 +41,13 @@
 ### **DOM**
 
 - Document Object Model 트리
-- 텍스트 파일인 HTML 문서를 브라우저에서 렌더링 하기 위한 구조
+- 텍스트 파일인 **HTML 문서를 브라우저에서 렌더링 하기 위한 구조**
   - HTML 문서에 대한 모델을 구성
   - HTML 문서 내의 각 요소에 접근 / 수정에 필요한 프로퍼티와 메서드를 제공함
 
 ### 시맨틱 태그
 
-- HTML5에서 의미론적 요소를 담은 태그 등장(기존의 영역 div 태그 대체)
+- **HTML5에서 의미론적 요소를 담은 태그** 등장(기존의 영역 div 태그 대체)
   - header : 문서 전체나 섹션의 헤더(머리말 부분)
   - nav : 네비게이션
   - aside : 사이드에 위치한 공간, 메인 콘텐츠와 관련성이 적은 콘텐츠
@@ -55,9 +55,9 @@
   - article: 문서, 페이지, 사이트 안에서 독립적으로 구분되는 영역
   - footer: 문서 전체나 섹션의 푸터(마지막 부분)
   - <img src="webcheat.assets/image-20220213164935142.png" alt="image-20220213164935142" style="zoom:50%;" />
-  - Non semantic 요소는 div, span 등이 있고 h1, table 태그도 시맨틱 태그로 볼 수 있음
+  - Non semantic 요소는 div, span 등이 있고 **h1, table 태그도 시맨틱 태그**로 볼 수 있음
   - 개발자, 사용자 뿐만 아니라 검색엔진 등에 의미 있는 정보의 그룹을 태그로 표현
-  - 단순히 구역을 나누는 것 뿐만 아니라 '의미'를 가지는 태그들을 활용하기 위한 노력
+  - 단순히 구역을 나누는 것 뿐만 아니라 **'의미'를 가지는 태그들을 활용하기 위한 노력**
   - 요소의 의미 명확, 가독성 up, 유지보수 easy
   - 검색엔진최적화를 위해 메타태그, 시맨틱 태그 등을 통한 마크업을 효과적으로 활용 해야함
 
@@ -74,7 +74,7 @@
 - p - 하나의 문단
 - hr - 수평선
 - ol - 순서있는 리스트, ul - 순서 없는 리스트
-- pre HTML에 작성한 내용 그대로 표현, 보통 고정폭 글꼴, 공백 문자 유지
+- pre  HTML에 작성한 내용 그대로 표현, 보통 고정폭 글꼴, 공백 문자 유지
 - blockquote 텍스트가 긴 인용문
 - div 의미 없는 블록 레벨 컨테이너
 
@@ -83,12 +83,12 @@
 - 스타일을 지정하기 위한 언어 / 선택하고, 스타일을 지정한다.
 - <img src="webcheat.assets/image-20220213165946574.png" alt="image-20220213165946574" style="zoom:50%;" />
 - CSS 구문은 선택자를 통해 스타일을 지정할 HTML 요소 선택
-- 중괄호 안에서는 속성과 값, 하나의 쌍으로 이루어진 선언 진행
+- 중괄호 안에서는 **속성과 값, 하나의 쌍으로 이루어진 선언 진행**
 - 각 쌍은 선택한 요소의 속성, 속성에 부여할 값을 의미
-  - 속성 (Property) : 어떤 스타일 기능을 변경할지 결정
-  - 값 (Value) : 어떻게 스타일 기능을 변경할지 결정
+  - **속성** (Property) : 어떤 스타일 **기능을 변경할지 결정**
+  - **값** (Value) : 어떻게 **스타일 기능을 변경할지 결정**
 - CSS 정의 방법
-  - 인라인, 내부참조(embedding, style 태그), 외부 참조(link file) - 분리된 CSS 파일, CSS 파일 작성한거 가져옴
+  - **인라인**, **내부참조**(embedding, **style 태그**), **외부 참조**(link file) - **분리된 CSS 파일, CSS 파일 작성한거 가져옴**
 
 ### 단위 (크기, 속성)
 
@@ -98,11 +98,11 @@
   - % - 백분율 단위
   - 가변적인 레이아웃에서 자주 사용
   - em - (바로 위, 부모 요소에 대한) 상속의 영향을 받음
-  - 배수 단위, 요소에 지정된 사이즈에 상대적인 사이즈를 가짐
+  - 배수 단위, **요소에 지정된 사이즈에 상대적인 사이즈를 가짐**
   - rem - (바로 위, 부모 요소에 대한) 상속의 영향을 받지 않음
-  - 최상위 요소(html)의 사이즈를 기준으로 배수 단위를 가짐
+  - **최상위 요소(html)의 사이즈를 기준으로 배수 단위를 가짐**
   - viewport - 웹 페이지를 방문한 유저에게 바로 보이게 되는 웹 컨텐츠의 영역 (디바이스 화면)
-  - 디바이스의 viewport를 기준으로 상대적인 사이즈가 결정됨
+  - **디바이스의 viewport를 기준으로 상대적인 사이즈가 결정됨**
   - vw, vh, vmin, vmax
 
 - 색상 단위
@@ -117,8 +117,8 @@
 
   - 기본 선택자 - 전체 선택자, 요소 선택자, 클래스 선택자, 아이디 선택자, 속성 선택자
   - 결합자 - 
-    - 자손 결합자 - selector A 하위의 모든 selectorB 요소
-    - 자식 결합자 - selector A 바로 아래의 selectorB 요소
+    - 자손 결합자 -  selector A 하위의 모든 selector B 요소    .box p
+    - 자식 결합자 - selector A 바로 아래의 selectorB 요소   .box > p
     - 일반 형제 결합자 - selector A의 형제 요소 중 뒤에 위치하는 selectorB 요소를 모두 선택
       - p ~ span
     - 인접 형제 결합자 - selector A의 형제 요소 중 **바로 뒤**에 위치하는 selectorB 요소를 모두 선택
@@ -134,10 +134,12 @@
   - CSS 우선순위를 아래와 같이 그룹을 지어볼 수 있다.
     - 1. 중요도 (Importance) -  사용시 주의 (!important)
       2. 우선 순위(Specificity)
-         - 인라인 > id > class, 속성, pseudo-class > 요소, Pseudo-element
+         - 인라인 > id > class, 속성, pseudo-class > 요소, Pseudo-element (인아클요(태))
       3. CSS 파일 로딩 순서
 
   **![image-20220213171006467](webcheat.assets/image-20220213171006467.png)**
+
+  3과 4의 경우 css파일에서 green이 뒤에있어 그린이 나옴미ㅑ
 
 - CSS 상속
   - CSS는 상속을 통해 부모 요소의 속성을 자식에게 상속
@@ -191,25 +193,61 @@
 - 아래는 좌표 프로퍼티(top, bottom, left, right)를 사용하여 이동 가능
   - relative, absolute, fixed
 - relative : 상대위치
-  - 자기 자신의 static 위치를 기준으로 이동(normal flow 유지)
+  -  **자기 자신의 static 위치를 기준으로 이동**(normal flow 유지)
   - 레이아웃에서 요소가 차지하는 공간은 static과 같음 (normal 대비 offset)
 - absolute : 절대 위치
-  - 요소를 일반적인 문서 흐름에서 제거 후 레이아웃에 공간을 차지 x (normal flow 벗어남)
-  - static이 아닌 가장 가까이 있는 부모/조상 요소를 기준으로 이동 (없는 경우 body)
+  - 요소를 일반적인 문서 흐름에서 제거 후 **레이아웃에 공간을 차지 x** (normal flow 벗어남)
+  - static이 아닌 가장 가까이 있는 **부모/조상 요소를 기준으로 이동** (없는 경우 body)
 - fixed : 고정 위치
   - 요소를 일반적인 문서 흐름에서 제거 후 레이아웃에 공간 차지 x
-  - 부모 요소와 관계없이 viewport를 기준으로 이동
+  - 부모 요소와 관계없이 **viewport를 기준으로 이동**
   - 스크롤 시에서 항상 같은 곳에서 위치함
 
 ### float 안나옴
 
 ### flex - axis, container - item, 각 속성
 
+- 행과 열 형태로 아이템들을 배치하는 1차원 레이아웃 모델
+- 축 main axis, cross axis
+- 구성요소 flex container, flex item
+- Flex container
+  - 플렉스박스 레이아웃을 형성하는 가장 기본적인 모델
+  - Flex item들이 놓여있는 영역
+  - display 속성을 flex 혹인 inline-flex로 지정
+- Flex item (자식 요소)
+  - 컨테이너에 속해 있는 컨텐츠(박스)
+
+- 배치 설정
+  - flex-direction(row, row-reverse, col, col-reverse)
+  - flex-wrap(wrap, nowrap)
+  - flex-flow(row nowrap 등)
+- 공간 나누기
+  - justify-content (main-axis)(flex-start, flex-end, center, space-between, space-around, space-evenly)
+  - align-content (cross axis)(flex-start, flex-end, center, space-between, space-around, space-evenly)
+- 정렬
+  - align-items (모든 아이템을 cross axis 기준으로)(stretch, flex-start, flex-end, center, baseline)
+  - align-self (개별 아이템)(개별 아이템에 적용, stretch, flex-start, flex-end, center)
+- 기타속성
+  - flex-grow : 남은 영역을 아이템에 분배
+  - order : 배치순서
+
 ## 반응형 웹
 
-- bootStrap
-  - Grid System
-  - Breakpoint
+#### bootStrap
+
+- CDN(content delivery network - 컨텐츠를 효율적으로 전달하기 위해 여러 노드에 가진 네트워크에 데이터를 제공하는 시스템)
+- Grid System
+  - 요소들의 디자인과 배치에 도움을 주는 시스템
+  - 기본 요소
+    - column : 실제 컨텐츠를 포함하는 부분
+    - Gutter : 칼럼과 칼럼 사이의 공간
+    - Container : Column들을 담고 있는 공간
+  - 부트스트램 grid system은 flexbox로 제작됨
+  - container, rows, column으로 컨텐츠를 배치하고 정렬
+  - 12개의 column, 6개의 grid breakpoints
+- Breakpoint
+
+<img src="C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220213212518812.png" alt="image-20220213212518812" style="zoom:80%;" />\
 
 
 
