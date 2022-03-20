@@ -37,3 +37,13 @@ funestFunction();
 
 - 함수내부 -> ... ->Root scope로 참조
 - 
+
+#### 151 ES5 and ES6
+
+- ECMA internation
+- ECMAScript === Javascript
+
+- ES6 --> ECMAScript6
+- BABEL - 최신버전의 js로 작성해도(es6, es7) 모든 브라우저에서 돌아갈 수 있도록 변환해주는
+  사이트
+- 
