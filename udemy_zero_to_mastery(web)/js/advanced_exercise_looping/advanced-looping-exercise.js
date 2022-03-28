@@ -33,16 +33,38 @@ const array2 = ['a', 3, 4, 2] // should return 4
 const array3 = [] // should return 0
 
 function biggestNumberInArray(arr) {
-
+  let temp = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > temp) {
+      temp = arr[i]
+    }      
+  }
+  return temp
 }
+console.log(biggestNumberInArray(array2))
 
 function biggestNumberInArray2(arr) {
-
+  let temp = 0;
+  for (num of arr){
+    if (num > temp) {
+      temp = num;
+    }
+  }
+  return temp
 }
+console.log(biggestNumberInArray2(array3))
+
 
 function biggestNumberInArray3(arr) {
-
+  let highest = 0;
+  arr.forEach(item => {
+    if (highest < item) {
+      highest = item;
+    }
+  })
+  return highest;
 }
+console.log(biggestNumberInArray3(array2))
 
 
 // Question #2:
@@ -54,5 +76,12 @@ amazonBasket = {
 }
 
 function checkBasket(basket, lookingFor) {
-
+  for (item in basket) {
+    if (item === lookingFor){
+      return `찾는 ${lookingFor}이 있습니다.`
+    }
+  }
+  return "찾는 물건이 없습니다."
 }
+
+console.log(checkBasket(amazonBasket, 'glasses'))

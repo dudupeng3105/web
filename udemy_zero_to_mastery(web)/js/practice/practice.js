@@ -436,50 +436,50 @@ console.log('Turtle'.padStart(10)); // '    Turtle'
 console.log('Turtle'.padEnd(10)); // 'Turtle    '
 
 // ending comma -> 아직 수행하고 싶지않은 많은 파라미터가 있을 때 유용
-const fun = (a,b,c,d,) => {
-    console.log(a);
-}
+// const fun = (a,b,c,d,) => {
+//     console.log(a);
+// }
 
-console.log(fun(1,2,3,4)) // 1
+// console.log(fun(1,2,3,4)) // 1
 
-Object.values
-Object.entries
-Object.keys
+// Object.values
+// Object.entries
+// Object.keys
 
-let obj = {
-    username0: 'Santa',
-    username1: 'Rudolf',
-    username2: 'Mr.Grinch'
-}
+// let obj = {
+//     username0: 'Santa',
+//     username1: 'Rudolf',
+//     username2: 'Mr.Grinch'
+// }
 
-console.log(Object.keys(obj))  //[ 'username0', 'username1', 'username2' ]
-Object.keys(obj).forEach((key, index) => {
-    console.log(key, obj[key])
-})
-// username0 Santa
-// username1 Rudolf
-// username2 Mr.Grinch
+// console.log(Object.keys(obj))  //[ 'username0', 'username1', 'username2' ]
+// Object.keys(obj).forEach((key, index) => {
+//     console.log(key, obj[key])
+// })
+// // username0 Santa
+// // username1 Rudolf
+// // username2 Mr.Grinch
 
-Object.values(obj).forEach(value => {
-    console.log(value);
-})
-// Santa
-// Rudolf
-// Mr.Grinch
+// Object.values(obj).forEach(value => {
+//     console.log(value);
+// })
+// // Santa
+// // Rudolf
+// // Mr.Grinch
 
-Object.entries(obj).forEach(value => {
-    console.log(value);
-})
-// [ 'username0', 'Santa' ]
-// [ 'username1', 'Rudolf' ]
-// [ 'username2', 'Mr.Grinch' ]
+// Object.entries(obj).forEach(value => {
+//     console.log(value);
+// })
+// // [ 'username0', 'Santa' ]
+// // [ 'username1', 'Rudolf' ]
+// // [ 'username2', 'Mr.Grinch' ]
 
-Object.entries(obj).map(value => {
-    return console.log(value[1] + value[0].replace('username', ''));
-})
-// Santa0
-// Rudolf1
-// Mr.Grinch2
+// Object.entries(obj).map(value => {
+//     return console.log(value[1] + value[0].replace('username', ''));
+// })
+// // Santa0
+// // Rudolf1
+// // Mr.Grinch2
 
 // Async Await
 
