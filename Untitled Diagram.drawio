@@ -1,1 +1,390 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T05:52:24.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.0.7" etag="9Zph9NJDiSIfpcBq1e-x" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7ZjbctowEIafhksYH8LpEggkM22SmZK218JabDWy5MoCQ56+K1uObZzSZJqUdIYrW7/W2tWu9rOh48/i3ZUiSXQjKfCO59Bdx7/seJ7reT5ejLIvlNHQLYRQMWqNKmHJHsGKjlU3jELaMNRScs2SphhIISDQDY0oJbOm2VrypteEhNASlgHhbfU7ozqyu/CGlX4NLIxKz+5gXMzEpDS2O0kjQmVWk/x5x58pKXVxF+9mwE3yyrwUzy1+M/sUmAKhX/IAvd3tbz8Ng+Fo9TnbphRurvtd1y6zJXxjd3ynwiAiStuo9b5MRZqxmBOBo2mkY46ii7epRltbN4wA56Rij1JoUloEZsAEqPt9Yqy0ArNGyElqimOeae+ljAuUhl1Nsnu7AhmDVns0sbMXNs3lObPDrCrasDxTUa1g3tiKxB6U8GnlKpd4Y9OZD7+moO5WP8xx8xxOVsCLRzteX5AY8NLxBhwdTFcK70Kd77BQWCOng58bU35MEZeq40/yNiD7aqJ6vJ/IlGkmRW15jIsdOmi7JGbLCtYNjzFhXMvcZR/MoFj2wO28mHnyRqq1Tc7y3eZbv4c0NX5uGOegbDnLgHOL2eKukLkMSCXfrdcswJQ5tuBFLPkUrn3hwI7ECYdeIGO7KicBRNjGoJqtzZl4KIRIa0OHiamft8iyrEcVyXpMFobHG8KrnTLbQbUesNWesrjgRtNVQIXfY3je10xgfEXQC0o0MZVCPcXrBk9Pl2xRVGkXY1/0jc9cTrs+BjDqJSJEH1nENCwT3C46yhCvzcZTcoNOqO2gejeZBruRW2ZWyU2NsMCUVUq74Y7j4cVt6A2afdhv96E7eqYPh69vQxzWOvE10PNb0GvBDgSdmNcHjlZ4Yh/uI4YndorygvGyBGskm0Wfa8ZA8d1h1wC+ktm8Eqa5gBMmlywwdDwo4StrksqNCuCPRxnfl0SFcHTFC9t7tPEubNdYAcfW3TZfjWdw/g045zQjihpySqVYaqJss3OqiMhtiEDsqKMc9T4IRy9OylHXeTuUNsnZguu7ofTgi8Z95pPmWZSO/iVK+2eUNgwHZ5SeDKVbgoE53/C3m36OotdfULpkCnMmjzO0fB+emqGDkzJ03PX+d4Qefo1+TIYOzwxtGI7ODD0VQye8+AZ1LqWQOU/bHF3uUw0IE2dCYyaOgtT/ICAdnRSkb4LR9/vMHJ+UkShV/4Hm5rV/kv35Lw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-19T06:19:53.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="y9D8qLxeiwGgSmmsAPai" version="18.0.7" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="4049" dy="2137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x_m-USDx07PcHqTr6qs1-2" value="Main.vue&lt;br&gt;(NAV)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-3" value="Login.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-4" value="SignIn.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-5" value="Index.vue&lt;br&gt;(메인)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-6" value="Profile.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="190" as="sourcePoint" />
+            <mxPoint x="2180" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="190" as="sourcePoint" />
+            <mxPoint x="2340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-2" target="x_m-USDx07PcHqTr6qs1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2030" y="210" as="sourcePoint" />
+            <mxPoint x="2110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-2" target="x_m-USDx07PcHqTr6qs1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1900" y="190" as="sourcePoint" />
+            <mxPoint x="1660" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-5" target="x_m-USDx07PcHqTr6qs1-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="390" as="sourcePoint" />
+            <mxPoint x="2180" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-23" value="TitleMovie.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100.241379310345" y="490.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-24" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2000" y="340" as="sourcePoint" />
+            <mxPoint x="1900.0000000000002" y="410.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-30" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-31" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-32" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2430" y="340" as="sourcePoint" />
+            <mxPoint x="2610" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-34" value="UserInfo.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-35" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-36" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-37" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-6" target="x_m-USDx07PcHqTr6qs1-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="380" as="sourcePoint" />
+            <mxPoint x="2400" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-39" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-40" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-41" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-35" target="x_m-USDx07PcHqTr6qs1-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="440" as="sourcePoint" />
+            <mxPoint x="2660" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-44" value="BucketDetail.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-44" source="x_m-USDx07PcHqTr6qs1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2110" y="190" as="sourcePoint" />
+            <mxPoint x="2650" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-48" value="BucketDetailItem.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-48" source="x_m-USDx07PcHqTr6qs1-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2788" y="340" as="sourcePoint" />
+            <mxPoint x="2758" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-50" value="BucketDetailItem.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-51" value="BucketDetailItem.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-52" value="BucketDetail.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-2" target="x_m-USDx07PcHqTr6qs1-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2170" y="130" as="sourcePoint" />
+            <mxPoint x="2850" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-54" value="MovieDetail.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-54" source="x_m-USDx07PcHqTr6qs1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="210" as="sourcePoint" />
+            <mxPoint x="3080" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3200" y="340" as="sourcePoint" />
+            <mxPoint x="3380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-57" value="MovieInfo.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3100" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-58" value="ReviewList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3200" y="340" as="sourcePoint" />
+            <mxPoint x="3170" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-60" value="ReviwItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="490" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.448;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.496;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-58" target="x_m-USDx07PcHqTr6qs1-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3325" y="440" as="sourcePoint" />
+            <mxPoint x="3320" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-62" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-63" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-64" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-65" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-62" target="x_m-USDx07PcHqTr6qs1-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3470" y="440" as="sourcePoint" />
+            <mxPoint x="3590" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-54" target="x_m-USDx07PcHqTr6qs1-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3280" y="330" as="sourcePoint" />
+            <mxPoint x="3400" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.465;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-54" target="x_m-USDx07PcHqTr6qs1-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3110" y="350" as="sourcePoint" />
+            <mxPoint x="3010" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-69" value="ActorList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3019.6400000000003" y="450" as="sourcePoint" />
+            <mxPoint x="3019.6400000000003" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-71" value="ActorItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-72" value="Trailer.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3560" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3200" y="340" as="sourcePoint" />
+            <mxPoint x="3580" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3200" y="340" as="sourcePoint" />
+            <mxPoint x="3720" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-75" value="PosterList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-76" value="Search.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-76" source="x_m-USDx07PcHqTr6qs1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1980" y="200" as="sourcePoint" />
+            <mxPoint x="1360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430.241379310345" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-79" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-79" source="x_m-USDx07PcHqTr6qs1-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="385" as="sourcePoint" />
+            <mxPoint x="1220.0000000000002" y="455.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-81" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-82" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-83" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-84" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-85" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-94" value="ActorList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1229.6400000000003" y="430" as="sourcePoint" />
+            <mxPoint x="1229.6400000000003" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-96" value="ActorItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-76" target="x_m-USDx07PcHqTr6qs1-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="340" as="sourcePoint" />
+            <mxPoint x="1300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-99" value="BucketArticle.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="930" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-100" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="190" as="sourcePoint" />
+            <mxPoint x="1000" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="x_m-USDx07PcHqTr6qs1-111" parent="1" target="x_m-USDx07PcHqTr6qs1-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920.2413793103451" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="455" />
+              <mxPoint x="990" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-111" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-112" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="930" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-113" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="930" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-114" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="930" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-117" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="989.5" y="340" as="sourcePoint" />
+            <mxPoint x="989.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-118" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-119" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-120" value="BucketArticleDetail&lt;br&gt;.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="190" as="sourcePoint" />
+            <mxPoint x="740" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-122" value="MovieList.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="x_m-USDx07PcHqTr6qs1-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.5" y="340" as="sourcePoint" />
+            <mxPoint x="609.5" y="380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-124" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-125" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="450" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-126" value="MovieItem.vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.50000000000034" y="440" as="sourcePoint" />
+            <mxPoint x="509.50000000000034" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_m-USDx07PcHqTr6qs1-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.5" y="350" as="sourcePoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_m-USDx07PcHqTr6qs1-129" value="ArticleForm.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
